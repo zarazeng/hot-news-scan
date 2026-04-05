@@ -33,6 +33,17 @@ opencli twitter search "AI safety OR AI regulation" --filter top --limit 20 --fo
 
 # AI芯片/GPU
 opencli twitter search "NVIDIA OR GPU AI chip" --filter top --limit 20 --format md
+
+# AI 科技 KOL 重点关注（直接追踪以下账号）
+# Andrej Karpathy, Swyx, Josh Woodward, Kevin Weil, Peter Yang, Nan Yu,
+# Madhu Guru, Amanda Askell, Cat Wu, Thariq, Google Labs, Amjad Masad,
+# Guillermo Rauch, Alex Albert, Aaron Levie, Ryo Lu, Garry Tan,
+# Matt Turck, Zara Zhang, Nikunj Kothari, Peter Steinberger,
+# Dan Shipper, Aditya Agarwal, Sam Altman, Claude
+opencli twitter search "karpathy OR swyx OR joshwoodward OR kevinweil OR petergyang OR thenanyu" --filter top --limit 30 --format md
+opencli twitter search "realmadhuguru OR AmandaAskell OR _catwu OR trq212 OR GoogleLabs OR amasad" --filter top --limit 30 --format md
+opencli twitter search "rauchg OR alexalbert__ OR levie OR ryolu_ OR garrytan OR mattturck" --filter top --limit 30 --format md
+opencli twitter search "zarazhangrui OR nikunj OR steipete OR danshipper OR adityaag OR sama OR claudeai" --filter top --limit 30 --format md
 ```
 
 ### Hacker News
