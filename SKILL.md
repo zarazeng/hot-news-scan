@@ -1,9 +1,9 @@
 ---
-name: tech-news-scan
+name: hot-news-scan
 description: 科技领域每日热点扫描工具。监控 Twitter/X 和 Hacker News 两大平台，覆盖 AI 科技、自动驾驶 & 特斯拉全业务、太空商业三个领域，收集过去36小时的高价值内容，作为内容选题依据。触发场景：（1）用户要求推送热点新闻；（2）要求收集特定领域动态；（3）内容选题前的情报收集；（4）定时推送任务。
 ---
 
-# tech-news-scan
+# hot-news-scan
 
 科技领域每日热点扫描流程。
 
